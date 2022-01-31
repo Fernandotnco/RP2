@@ -17,4 +17,17 @@ public class TextStatement extends Statement {
         " frequent renter points";
         return result;
     }
+
+   private static String NameText(String s){
+       return "Rental Record for " + s + "\n";
+   }
+   private static String MovieText(String title, String charge){
+       return "\t" + title + "\t" + charge + "\n";
+   }
+   private static String ChargeText(String s){
+       return "Amount owed is " + s + "\n";
+   }
+   private static String NameFrequentTextText(String s){
+       return "You earned " + s + " frequent renter points";
+   }
 }

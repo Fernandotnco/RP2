@@ -36,7 +36,8 @@ public class Customer {
          Rental each = (Rental) rentals.nextElement();
          result += each.getCharge();
          }
-         return result;
+      return result;
+    }
 
    public int getTotalFrequentRenterPoints(){
       int result = 0;
